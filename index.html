@@ -402,18 +402,18 @@
                 </a>
             </div>
         </div>
-        <form class="contact-form reveal" onsubmit="return false">
+        <form class="contact-form reveal" target="_blank" action="https://formsubmit.co/virgile.borgogno@gmail.com" method="POST">
             <div class="form-group">
                 <label for="name">Nom</label>
-                <input id="name" placeholder="Jean Martin" type="text"/>
+                <input id="name" type="text" name="name" placeholder="Jean Martin" required>
             </div>
             <div class="form-group">
                 <label for="email">Email</label>
-                <input id="email" placeholder="jean@entreprise.com" type="email"/>
+                <input id="email" type="email" name="email" placeholder="jean@entreprise.com" required>
             </div>
             <div class="form-group">
                 <label for="msg">Message</label>
-                <textarea id="msg" placeholder="Bonjour, je suis recruteur chez..."></textarea>
+                <textarea id="msg" placeholder="Bonjour, je suis recruteur chez..." name="message" rows="10" required></textarea>
             </div>
             <button class="btn btn-primary" type="submit">Envoyer le message →</button>
         </form>
