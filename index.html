@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Portfolio — Développeur Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap"
+          rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet">
+    <script defer src="index.js"></script>
+</head>
+<body>
+
+<nav>
+    <a class="nav-logo" href="#hero">Vigile<span>.</span>Martinier</a>
+    <ul class="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <!--<li><a href="#veille">Veille</a></li>-->
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-tag fade-in">Disponible — Alternance</div>
+    <h1 class="fade-in">
+        Bonjour, je suis<br>
+        <span class="name">Virgile Martinier</span>
+    </h1>
+    <p class="hero-desc fade-in">
+        Développeur junior en BTS SIO option SLAM.<br>
+        Je construis des applications propres, fonctionnelles et bien documentées.
+    </p>
+    <div class="hero-cta fade-in">
+        <a class="btn btn-primary" href="#projects">Voir mes projets →</a>
+        <a class="btn btn-ghost" href="#contact">Me contacter</a>
+    </div>
+</section>
+
+<!-- À PROPOS -->
+<section id="about">
+    <div class="section-header reveal">
+        <span class="section-num">01</span>
+        <h2>À propos</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="about-grid reveal">
+        <div class="about-text">
+            <p>
+                Passionné par le développement back-end depuis le lycée, j’ai choisi le BTS SIO option SLAM afin de me
+                spécialiser dans la conception d'application métier et surtout dans la modélisation de bases de données.
+            </p>
+            <p>
+                Je conçois des back-ends structurés et évolutifs, avec une attention particulière portée à la cohérence
+                des modèles de données et à la qualité du code. J’ai travaillé avec PHP et Symfony (Doctrine, sécurité,
+                formulaires) ainsi que SQL. Curieux et débrouillard, j’aime comprendre en profondeur ce que je fais tout
+                en restant attentif à la performance et à la sécurité.
+            </p>
+            <p>
+                Aujourd'hui, je cherche un poste ou une alternance axé(e) back-end pour contribuer à des applications
+                web
+                en équipe, faire évoluer des architectures existantes et continuer à monter en compétences.
+            </p>
+        </div>
+
+        <div class="about-info">
+            <div class="about-card">
+                <div class="about-card-title">Profil technique</div>
+                <ul class="about-list">
+                    <li><span>Back-end :</span> PHP · Symfony · C#</li>
+                    <li><span>Base de données :</span> SQL · NoSQL</li>
+                    <li><span>Qualité :</span> MVC, bonnes pratiques, code clair</li>
+                </ul>
+            </div>
+
+            <div class="about-card">
+                <div class="about-card-title">Parcours</div>
+                <ul class="about-list">
+                    <li><span>Formation :</span> BTS SIO · SLAM</li>
+                    <li><span>Promo :</span> 2024 – 2026</li>
+                    <li><span>Localisation :</span> Saint-Berthevin, France</li>
+                </ul>
+            </div>
+
+            <div class="about-card about-status">
+                <div class="about-status-pill">
+                    <span class="status-dot"></span>
+                    Ouvert aux opportunités back-end
+                </div>
+                <p class="about-status-text">
+                    Disponible pour un poste junior ou une alternance en développement.
+                </p>
+                <a class="btn btn-ghost" href="#" style="margin-top: 0.4rem; justify-content: center;">
+                    Télécharger le CV ↓
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- COMPÉTENCES -->
+<section id="skills">
+    <div class="section-header reveal">
+        <span class="section-num">02</span>
+        <h2>Compétences</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+        <div class="skill-card reveal">
+            <div class="skill-card-title">Langages</div>
+            <div class="skill-tags">
+                <span class="tag">PHP</span>
+                <span class="tag">SQL</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">C#</span>
+                <span class="tag">HTML/CSS</span>
+                <span class="tag">Python</span>
+            </div>
+        </div>
+        <div class="skill-card reveal">
+            <div class="skill-card-title">Frameworks & Libs</div>
+            <div class="skill-tags">
+                <span class="tag">Symfony</span>
+                <span class="tag">Entity Framework</span>
+                <span class="tag">WPF</span>
+                <span class="tag">React</span>
+                <span class="tag">Bootstrap</span>
+            </div>
+        </div>
+        <div class="skill-card reveal">
+            <div class="skill-card-title">Outils & Méthodes</div>
+            <div class="skill-tags">
+                <span class="tag">Git / GitHub</span>
+                <span class="tag">VS Code</span>
+                <!--<span class="tag">Docker</span>-->
+                <span class="tag">Merise</span>
+                <span class="tag">UML</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJETS -->
+<section id="projects">
+    <div class="section-header reveal">
+        <span class="section-num">03</span>
+        <h2>Projets</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="projects-list">
+
+        <div class="project-card reveal" data-project="Work-Together-Web" data-type="Symfony">
+            <div>
+                <div class="project-meta">Projet BTS - Web</div>
+                <div class="project-title">WorkTogether</div>
+                <p class="project-desc">
+                    Application Web permettant la location d'unité de serveur
+                </p>
+                <div class="project-links">
+                    <a class="project-link" href="https://github.com/Fiseo/Work-Together-Web">GitHub</a>
+                    <button class="project-link open-project-modal">En savoir plus</button>
+                </div>
+            </div>
+            <div class="project-stack">
+                <span class="stack-pill">Symfony</span>
+            </div>
+
+            <div class="project-details" hidden>
+                <p><strong>Résumé</strong> : Application de location d'unité de serveur.<br>
+                    Permet aux clients de se créer un compte et d'effectuer des commandes</p>
+
+                <p><strong>Contexte</strong> : Projet léger demandé pour l'épreuve E6 du BTS.</p>
+
+                <p><strong>Fonctionnalités clés</strong> :</p>
+                <ul>
+                    <li>Création de compte client.</li>
+                    <li>Réservation et paiement de commande.</li>
+                    <li>Consultation des informations liées à ses unités via API.</li>
+                    <li>Consultation de son historique de commande.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project-card reveal" data-project="Work-Together-Desktop" data-type="C#">
+            <div>
+                <div class="project-meta">Projet BTS - Desktop</div>
+                <div class="project-title">WorkTogether</div>
+                <p class="project-desc">
+                    Application lourde permettant la gestion de la base de donnée du projet via un compte admin. Permet
+                    aux membres du personnel l'accès à certains services tel que l'extraction de graphique.
+                </p>
+                <div class="project-links">
+                    <a class="project-link" href="https://github.com/Fiseo/Work-Together-Desktop">GitHub</a>
+                    <button class="project-link open-project-modal">En savoir plus</button>
+                </div>
+            </div>
+            <div class="project-stack">
+                <span class="stack-pill">C#</span>
+                <span class="stack-pill">EntityFramework</span>
+                <span class="stack-pill">WPF</span>
+            </div>
+
+            <div class="project-details" hidden>
+                <p><strong>Résumé</strong> : Application de gestion de la base de donnée. <br>
+                    Permet aux membres du personnel l'accès à certains services tel que l'extraction de graphique.</p>
+
+                <p><strong>Contexte</strong> : Projet lourd demandé pour l'épreuve E6 du BTS.</p>
+
+                <p><strong>Fonctionnalités clés</strong> :</p>
+                <ul>
+                    <li>Consultation des données.</li>
+                    <li>Création de donnée essentiel.</li>
+                    <li>Extraction de graphique.</li>
+                    <li>Impossibilité pour un compte client de se connecter.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project-card reveal" data-project="AlterPlanning" data-type="Symfony">
+            <div>
+                <div class="project-meta">Stage</div>
+                <div class="project-title">AlterPlanning</div>
+                <p class="project-desc">
+                    Création d'une application de gestion des heures de travail des salariés de l'association AlternaTri
+                    53.
+                </p>
+                <div class="project-links">
+                    <button class="project-link open-project-modal">En savoir plus</button>
+                </div>
+            </div>
+            <div class="project-stack">
+                <span class="stack-pill">Symfony</span>
+            </div>
+
+            <div class="project-details" hidden>
+                <p><strong>Résumé</strong> : Application de gestion des heures de travail des salariés de l'association
+                    AlternaTri 53.</p>
+
+                <p><strong>Contexte</strong> : Projet de stage effectué sur plusieurs périodes (Juin-Juillet 2025 /
+                    Janvier-Février 2026).</p>
+
+                <p><strong>Objectifs</strong> : Rassembler un ensemble d'information sur un unique logiciel afin de
+                    réduire le travail jusqu'ici chronophage de la comptable.</p>
+
+                <p><strong>Mon rôle</strong> : Conception de la base de données, Création des fonctionnalités d'appel et
+                    de planning.</p>
+
+                <p><strong>Fonctionnalités clés</strong> :</p>
+                <ul>
+                    <li>Création d'appel.</li>
+                    <li>Création de planning (Template assignable ou personnalisé).</li>
+                    <li>Extraction des données.</li>
+                    <li>Droit des utilisateurs personnalisable par l'admin.</li>
+                </ul>
+
+                <p><strong>Difficultés techniques</strong> : Nombreux cas d'usage complexe, Gestion des plannings créé
+                    de zéro afin de rester fidèle aux habitudes de l'association.</p>
+            </div>
+        </div>
+
+        <div class="project-card reveal" data-project="ORM" data-type="PHP 8.3">
+            <div>
+                <div class="project-meta">Projet Personnel</div>
+                <div class="project-title">Orm-Library</div>
+                <p class="project-desc">
+                    Création d'un ORM en PHP Natif.
+                </p>
+                <div class="project-links">
+                    <a class="project-link" href="https://github.com/Fiseo/ORM-Library">GitHub</a>
+                    <a class="project-link" href="https://packagist.org/packages/fiseo/orm-library">Packagist</a>
+                    <button class="project-link open-project-modal">En savoir plus</button>
+                </div>
+            </div>
+            <div class="project-stack">
+                <span class="stack-pill">PHP 8.3</span>
+            </div>
+
+            <div class="project-details" hidden>
+                <p><strong>Résultat souhaité</strong> : Créer un Framework de zéro afin de proposer une solution unique
+                    lors de l'épreuve E6</p>
+
+                <p><strong>Résultat réel</strong> : Création de l'ORM du Framework. Projet mis en pause, car temps de
+                    travail trop lourd pour pouvoir être présenté lors du BTS</p>
+
+                <p><strong>Temps de travail</strong> : ~200 heures</p>
+
+                <p><strong>Fonctionnalités clés</strong> :</p>
+                <ul>
+                    <li>Aucune dépendance</li>
+                    <li>Supporte l'héritage CTI</li>
+                    <li>Chaque propriété possède sa propre classe</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- parcours -->
+<section id="parcours">
+    <div class="section-header reveal">
+        <span class="section-num">04</span>
+        <h2>Parcours</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+
+        <div class="timeline-item reveal">
+            <div class="timeline-date">Janvier – février 2026</div>
+            <div class="timeline-title">Développeur stagiaire</div>
+            <div class="timeline-company">AlternaTri 53 · Saint-Berthevin</div>
+            <p class="timeline-desc">
+                Travail sur le projet AlterPlanning (voir plus haut).
+            </p>
+        </div>
+
+        <div class="timeline-item reveal">
+            <div class="timeline-date">Juin – juillet 2025</div>
+            <div class="timeline-title">Développeur stagiaire</div>
+            <div class="timeline-company">AlternaTri 53 · Saint-Berthevin</div>
+            <p class="timeline-desc">
+                Travail sur le projet AlterPlanning (voir plus haut).
+            </p>
+        </div>
+
+        <div class="timeline-item reveal">
+            <div class="timeline-date">2024 – 2026</div>
+            <div class="timeline-title">BTS SIO — Option SLAM</div>
+            <div class="timeline-company">Institut d'Informatique Appliquée · Saint-Berthevin</div>
+            <p class="timeline-desc">
+                Formation en développement logiciel et web auprès de formateur professionel. Projet WorkTogether.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- VEILLE TECHNOLOGIQUE --
+<section id="veille">
+    <div class="section-header reveal">
+        <span class="section-num">05</span>
+        <h2>Veille technologique</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="veille-grid">
+        <div class="veille-card reveal">
+            <div class="veille-icon">🤖</div>
+            <div class="veille-title">IA & développement</div>
+            <p class="veille-text">
+                Suivi de l'intégration des LLMs dans les outils de dev (GitHub Copilot, Cursor).
+                Impact sur les pratiques de développement et la qualité du code.
+            </p>
+        </div>
+        <div class="veille-card reveal">
+            <div class="veille-icon">🔒</div>
+            <div class="veille-title">Cybersécurité web</div>
+            <p class="veille-text">
+                Veille sur les vulnérabilités OWASP Top 10 (injections SQL, XSS, CSRF).
+                Bonnes pratiques de sécurisation des API REST.
+            </p>
+        </div>
+        <div class="veille-card reveal">
+            <div class="veille-icon">🐳</div>
+            <div class="veille-title">DevOps & conteneurisation</div>
+            <p class="veille-text">
+                Découverte de Docker et des pratiques CI/CD. Automatisation des déploiements
+                avec GitHub Actions.
+            </p>
+        </div>
+    </div>
+</section> -->
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="section-header reveal">
+        <span class="section-num">05</span>
+        <h2>Contact</h2>
+        <div class="section-line"></div>
+    </div>
+    <div class="contact-grid">
+        <div>
+            <p class="contact-intro reveal">
+                Je suis disponible pour des opportunités en CDI, CDD ou alternance.
+                N'hésitez pas à me contacter, je réponds généralement sous 24h.
+            </p>
+            <div class="contact-links reveal">
+                <a class="contact-link" href="mailto:virgile.borgogno@gmail.com">
+                    <span class="contact-link-icon">✉️</span>
+                    virgile.borgogno@gmail.com
+                </a>
+                <a class="contact-link" href="https://github.com/Fiseo">
+                    <span class="contact-link-icon">🐙</span>
+                    github.com/Fiséo
+                </a>
+                <a class="contact-link" href="#">
+                    <span class="contact-link-icon">💼</span>
+                    linkedin.com/in/Virgile-Martinier
+                </a>
+            </div>
+        </div>
+        <form class="contact-form reveal" onsubmit="return false">
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input id="name" placeholder="Jean Martin" type="text"/>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" placeholder="jean@entreprise.com" type="email"/>
+            </div>
+            <div class="form-group">
+                <label for="msg">Message</label>
+                <textarea id="msg" placeholder="Bonjour, je suis recruteur chez..."></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Envoyer le message →</button>
+        </form>
+    </div>
+</section>
+
+<div class="modal-overlay" id="project-modal">
+    <div class="modal">
+        <div class="modal-header">
+            <div>
+                <h3 class="modal-title">Titre du projet</h3>
+                <span class="modal-badge" id="modal-badge">Projet BTS</span>
+            </div>
+            <button aria-label="Fermer la fenêtre" class="modal-close">&times;</button>
+        </div>
+        <div class="modal-body">
+            <!-- Texte principal injecté en JS -->
+        </div>
+        <div class="modal-footer" id="modal-footer">
+            <!-- Chips techno / rôles injectés en JS si tu veux -->
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Conçu & développé par Virgile Martinier · 2026</p>
+</footer>
+</body>
+</html>
